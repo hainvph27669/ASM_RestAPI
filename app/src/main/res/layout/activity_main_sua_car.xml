@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".Cars.MainActivity_Them_Car">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SỬA THÔNG TIN XE"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã Xe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtMaXeEdit"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Nhập mã"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên:  "
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/edtTenXeEdit"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Nhập tên xe" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hãng:"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtHangEdit"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Nhập hãng" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Năm SX:"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtNamsxEdit"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Nhập năm sx" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtGiaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Nhập giá" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ảnh"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtAnhXeEdit"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Nhập link ảnh" />
+
+        <Button
+            android:id="@+id/btnSuaCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SỬA"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFEB3B"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trở Về"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFEB3B"/>
+
+    </LinearLayout>
+</ScrollView>

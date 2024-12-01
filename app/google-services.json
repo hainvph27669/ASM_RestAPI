@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701910512262",
+    "project_id": "asm-restapi-d294a",
+    "storage_bucket": "asm-restapi-d294a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701910512262:android:a6202054da62579fecd707",
+        "android_client_info": {
+          "package_name": "com.example.asm_restapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuwf1XP-RvG-9UriWvpiBg30ZkXHvAwAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
